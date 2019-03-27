@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffffff;
+    color: #929292;
+    font-family: 'Lato','Arial', 'sans-serrif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;  /*makes font rendering in a perfect way*/
+
+}
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
