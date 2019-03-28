@@ -333,7 +333,12 @@ header {
 
 .city-features li a{
         color: #e67e22;
-        text-decoration: underline;
+        text-decoration: none;
+}
+.city-features li a:hover {
+    display: inline-block;
+    border-bottom:solid 2px #e67e22;
+    padding: 2px;
 }
 
 .cities-image {
