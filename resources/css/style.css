@@ -111,6 +111,13 @@ h2:after {
     margin-bottom: 10px;
 }
 
+.icon-small {
+    font-size: 90%;
+    display: inline-block;
+    color: #e67e22;
+    margin-right: 15px;
+}
+
 
 /* ------ BUTTONS --------*/
 
@@ -257,7 +264,7 @@ header {
 /* HOW IT WORKS */
 /* ------------------------------------------------------------ */
 .section-steps {
-    background-colour: #f4f4f4;
+    background-color: #eeeeee;
 }
 
 .steps-box:first-child {
@@ -307,4 +314,42 @@ header {
 
 .btn-app {
     text-decoration: none;
+}
+
+/* ------------------------------------------------------------ */
+/* CITIES */
+/* ------------------------------------------------------------ */
+
+.city-features {
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.city-features li{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.city-features li a{
+        color: #e67e22;
+        text-decoration: underline;
+}
+
+.cities-image {
+    height: 200px;
+    width: 300px;
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+.cities-box {
+    background: #000000;
+    overflow: hidden;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.cities-image:hover{
+    opacity: 1;
+
 }
