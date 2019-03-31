@@ -170,7 +170,7 @@ input[type=submit]:hover {
 /* HEADER */
 /* ------------------------------------------------------------ */
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),#000000), url(./img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),#000000), url(./img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -333,7 +333,7 @@ header {
 }
 
 .city-features li{
-    display: inline-block;
+    display: block;
     margin-bottom: 10px;
 }
 
