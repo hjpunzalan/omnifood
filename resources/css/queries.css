@@ -160,13 +160,14 @@
 /*  Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
         h1 {font-size: 150%; }
-        h2 { font-size: 110%; }
+        h2 { font-size: 130%; }
+        body { font-size: 14px;}
 
         .app-screen { width: 60%;}
 
         .city-features {
             width: 100%;
-            margin-left: 20%;
+            margin-left: 25%;
             font-size: 110%;
 
         }
