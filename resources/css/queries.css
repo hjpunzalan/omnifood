@@ -159,7 +159,7 @@
 
 /*  Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-        h1 {font-size: 150%; }
+        h1 {font-size: 140%; }
         h2 { font-size: 130%; }
         body { font-size: 14px;}
 
