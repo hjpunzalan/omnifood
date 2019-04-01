@@ -86,7 +86,7 @@
     }
 
     .app-screen {
-        width: 60%;
+        width: 40%;
     }
 
     .btn-app img {
@@ -103,7 +103,8 @@
 
     .city-features {
         width: 100%;
-        margin-left: 30%;
+        margin-left: 40%;
+        font-size: 110%;
 
     }
 
@@ -139,14 +140,19 @@
     }
 
     .social-links {
-        list-style: none;
-        float: left;
-        margin-top: 20px;
-        margin-left: 25%;
+        margin-top: 0px;
     }
 
     footer{
         font-size: 100%;
+    }
+
+    footer .span-1-of-2 {
+        width: 49.2%;
+    }
+
+    .footer-nav li {
+        margin-right: 10px;
     }
 
 }
@@ -156,16 +162,33 @@
         h1 {font-size: 150%; }
         h2 { font-size: 110%; }
 
+        .app-screen { width: 60%;}
+
+        .city-features {
+            width: 100%;
+            margin-left: 20%;
+            font-size: 110%;
+
+        }
+
         footer {
             font-size: 80%;
             width: 100%;
-        
         }
-
+        footer .span-1-of-2 {width: 100%;}
         .footer-nav li,
         .social-links li {
             margin-right: 20px;
         }
+
+        .social-links {
+            list-style: none;
+            float: left;
+            margin-top: 20px;
+            margin-left: 25%;
+        }
+
+        
 
 
 }
