@@ -11,13 +11,14 @@ ORANGE COLOUR : #e67e22
     box-sizing: border-box;
 }
 
-html {
+html, body {
     background-color: #ffffff;
     color: #585757;
     font-family: 'Lato','Arial', 'sans-serrif';
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;  /*makes font rendering in a perfect way*/
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1;}
@@ -273,15 +274,17 @@ header {
     background-color: #eeeeee;
 }
 
+.steps-box{
+        padding-left: 3%;
+}
+
 .steps-box:first-child {
         text-align: right;
-        padding-right: 3%;
         margin-top: 30px;
 
 }
 
 .steps-box:last-child {
-    padding-left: 3%;
     margin-top: 70px
 
 }
@@ -296,6 +299,7 @@ header {
 
 .works-step {
     margin-bottom: 50px;
+    position: relative;
 } 
 
 .works-step div {
@@ -338,24 +342,25 @@ header {
 }
 
 .city-features li a{
-        color: #e67e22;
-        text-decoration: none;
+    color: #e67e22;
+    text-decoration: none;
 }
 .city-features li a:hover {
     opacity: 0.5;
 }
 
 .cities-image {
-    height: 200px;
-    width: 300px;
+    display: block;
+    width: 100%;
     opacity: 0.7;
+    overflow: hidden;
     transition: opacity 0.5s;
 }
 
 .cities-box {
     background: #000000;
     overflow: hidden;
-    height: 200px;
+    width: 100%;
     margin-bottom: 20px;
 }
 .cities-image:hover{
