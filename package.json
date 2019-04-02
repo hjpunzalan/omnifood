@@ -18,7 +18,8 @@
   "homepage": "https://github.com/hjpunzalan/omnifood#readme",
   "dependencies": {
     "respond.js": "^1.4.2",
-    "selectivizr": "^1.0.3"
+    "selectivizr": "^1.0.3",
+    "waypoints": "^4.0.1"
   },
   "devDependencies": {
     "html5shiv": "^3.7.3"
