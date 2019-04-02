@@ -47,6 +47,11 @@
         height: 30px;
         width: auto;
     }
+
+
+        .footer-nav li {
+        margin-right: 10px;
+        }
 }
 
 
