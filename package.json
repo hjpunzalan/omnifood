@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/hjpunzalan/omnifood/issues"
   },
-  "homepage": "https://github.com/hjpunzalan/omnifood#readme",
+  "homepage": "https://github.com/hjpunzalan/omnifood",
   "dependencies": {
     "respond.js": "^1.4.2",
     "selectivizr": "^1.0.3",
