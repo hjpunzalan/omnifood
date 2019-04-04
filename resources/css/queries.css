@@ -35,6 +35,17 @@
     .icon-small { font-size: 90%;}
     .city-features { font-size: 90%}
 
+    .main-nav { display: none;}
+    .mobile-nav-icon {display:inline-block;}
+    .main-nav {float:left;}
+    .main-nav li {display:block;}
+
+    .main-nav li a:link,
+    .main-nav li a:visited  {
+        display:block;
+        border: 0;
+    }
+
     .plan-box {
         width: 100%;
         margin-left: 0%;
@@ -68,11 +79,17 @@
 
     h1 { font-size: 160%;}
     h2 { font-size: 140%;}
+
+    .logo {
+        height: 100px;
+
+    }
     
     .row,
     .hero-text-box { padding: 0 4%;}
     .col { width: 100%;}
-    .main-nav { display: none;}
+
+
     .long-copy {
         width: 100%;
         margin-left: 0%;
